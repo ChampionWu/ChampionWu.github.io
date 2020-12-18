@@ -4,45 +4,45 @@
   <meta charset="utf-8">
   
   
-  <title>武乘鹏的博客</title>
+  <title>webAPIs1 | 武乘鹏的博客</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <meta name="description" content="day01 - Web APIs 学习目标： 能够通过ID来获取元素能够通过标签名来获取元素能够通过class来获取元素能够通过选择器来获取元素能够获取body和html元素能够给元素注册事件能够修改元素的内容能够区分innerText和innerHTML的区别能够修改像div这类普通元素的属性能够修改表单元素的属性能够修改元素的样式属性  1.1. Web API介绍1.1.1 API的概念AP">
+  <meta name="description" content="学习目标： 能够通过ID来获取元素能够通过标签名来获取元素能够通过class来获取元素能够通过选择器来获取元素能够获取body和html元素能够给元素注册事件能够修改元素的内容能够区分innerText和innerHTML的区别能够修改像div这类普通元素的属性能够修改表单元素的属性能够修改元素的样式属性  1.1. Web API介绍1.1.1 API的概念API（Application Pr">
 <meta property="og:type" content="article">
-<meta property="og:title" content="武乘鹏的博客">
-<meta property="og:url" content="https://championwu.github.io/2020/12/18/day01_WebAPIs/index.html">
+<meta property="og:title" content="webAPIs1">
+<meta property="og:url" content="https://championwu.github.io/2020/12/18/webAPIs1/index.html">
 <meta property="og:site_name" content="武乘鹏的博客">
-<meta property="og:description" content="day01 - Web APIs 学习目标： 能够通过ID来获取元素能够通过标签名来获取元素能够通过class来获取元素能够通过选择器来获取元素能够获取body和html元素能够给元素注册事件能够修改元素的内容能够区分innerText和innerHTML的区别能够修改像div这类普通元素的属性能够修改表单元素的属性能够修改元素的样式属性  1.1. Web API介绍1.1.1 API的概念AP">
+<meta property="og:description" content="学习目标： 能够通过ID来获取元素能够通过标签名来获取元素能够通过class来获取元素能够通过选择器来获取元素能够获取body和html元素能够给元素注册事件能够修改元素的内容能够区分innerText和innerHTML的区别能够修改像div这类普通元素的属性能够修改表单元素的属性能够修改元素的样式属性  1.1. Web API介绍1.1.1 API的概念API（Application Pr">
 <meta property="og:locale">
 <meta property="og:image" content="https://championwu.github.io/images/1550719355829.png">
-<meta property="og:image" content="https://championwu.github.io/2020/12/18/day01_WebAPIs/images/1550731974575.png">
-<meta property="og:image" content="https://championwu.github.io/2020/12/18/day01_WebAPIs/images/1550732362134.png">
-<meta property="og:image" content="https://championwu.github.io/2020/12/18/day01_WebAPIs/images/1550733441663.png">
-<meta property="og:image" content="https://championwu.github.io/2020/12/18/day01_WebAPIs/images/1550733518278.png">
-<meta property="og:image" content="https://championwu.github.io/2020/12/18/day01_WebAPIs/images/1550733734425.png">
-<meta property="og:image" content="https://championwu.github.io/2020/12/18/day01_WebAPIs/images/1550733794816.png">
-<meta property="og:image" content="https://championwu.github.io/2020/12/18/day01_WebAPIs/images/1550734387056.png">
-<meta property="og:image" content="https://championwu.github.io/2020/12/18/day01_WebAPIs/images/1550734506084.png">
-<meta property="og:image" content="https://championwu.github.io/2020/12/18/day01_WebAPIs/images/1550735016756.png">
-<meta property="og:image" content="https://championwu.github.io/2020/12/18/day01_WebAPIs/images/1550735556297.png">
-<meta property="og:image" content="https://championwu.github.io/2020/12/18/day01_WebAPIs/images/1550735858049.png">
-<meta property="og:image" content="https://championwu.github.io/2020/12/18/day01_WebAPIs/images/1550735877145.png">
-<meta property="og:image" content="https://championwu.github.io/2020/12/18/day01_WebAPIs/images/1550736039005.png">
-<meta property="og:image" content="https://championwu.github.io/2020/12/18/day01_WebAPIs/images/1550736330331.png">
-<meta property="og:image" content="https://championwu.github.io/2020/12/18/day01_WebAPIs/images/1550736346822.png">
-<meta property="og:image" content="https://championwu.github.io/2020/12/18/day01_WebAPIs/images/1550736488634.png">
-<meta property="og:image" content="https://championwu.github.io/2020/12/18/day01_WebAPIs/images/1550736620181.png">
-<meta property="og:image" content="https://championwu.github.io/2020/12/18/day01_WebAPIs/images/1550736843659.png">
-<meta property="og:image" content="https://championwu.github.io/2020/12/18/day01_WebAPIs/images/1550736881832.png">
-<meta property="og:image" content="https://championwu.github.io/2020/12/18/day01_WebAPIs/images/1550736940082.png">
-<meta property="og:image" content="https://championwu.github.io/2020/12/18/day01_WebAPIs/images/1550736956754.png">
-<meta property="og:image" content="https://championwu.github.io/2020/12/18/day01_WebAPIs/images/1550737006593.png">
-<meta property="og:image" content="https://championwu.github.io/2020/12/18/day01_WebAPIs/images/1550737019729.png">
-<meta property="og:image" content="https://championwu.github.io/2020/12/18/day01_WebAPIs/images/1550737214510.png">
-<meta property="og:image" content="https://championwu.github.io/2020/12/18/day01_WebAPIs/images/1550737269546.png">
-<meta property="og:image" content="https://championwu.github.io/2020/12/18/day01_WebAPIs/images/1550737284218.png">
-<meta property="og:image" content="https://championwu.github.io/2020/12/18/day01_WebAPIs/images/1550737354861.png">
-<meta property="article:published_time" content="2020-12-18T00:58:47.405Z">
-<meta property="article:modified_time" content="2020-12-18T01:03:46.600Z">
+<meta property="og:image" content="https://championwu.github.io/2020/12/18/webAPIs1/images/1550731974575.png">
+<meta property="og:image" content="https://championwu.github.io/2020/12/18/webAPIs1/images/1550732362134.png">
+<meta property="og:image" content="https://championwu.github.io/2020/12/18/webAPIs1/images/1550733441663.png">
+<meta property="og:image" content="https://championwu.github.io/2020/12/18/webAPIs1/images/1550733518278.png">
+<meta property="og:image" content="https://championwu.github.io/2020/12/18/webAPIs1/images/1550733734425.png">
+<meta property="og:image" content="https://championwu.github.io/2020/12/18/webAPIs1/images/1550733794816.png">
+<meta property="og:image" content="https://championwu.github.io/2020/12/18/webAPIs1/images/1550734387056.png">
+<meta property="og:image" content="https://championwu.github.io/2020/12/18/webAPIs1/images/1550734506084.png">
+<meta property="og:image" content="https://championwu.github.io/2020/12/18/webAPIs1/images/1550735016756.png">
+<meta property="og:image" content="https://championwu.github.io/2020/12/18/webAPIs1/images/1550735556297.png">
+<meta property="og:image" content="https://championwu.github.io/2020/12/18/webAPIs1/images/1550735858049.png">
+<meta property="og:image" content="https://championwu.github.io/2020/12/18/webAPIs1/images/1550735877145.png">
+<meta property="og:image" content="https://championwu.github.io/2020/12/18/webAPIs1/images/1550736039005.png">
+<meta property="og:image" content="https://championwu.github.io/2020/12/18/webAPIs1/images/1550736330331.png">
+<meta property="og:image" content="https://championwu.github.io/2020/12/18/webAPIs1/images/1550736346822.png">
+<meta property="og:image" content="https://championwu.github.io/2020/12/18/webAPIs1/images/1550736488634.png">
+<meta property="og:image" content="https://championwu.github.io/2020/12/18/webAPIs1/images/1550736620181.png">
+<meta property="og:image" content="https://championwu.github.io/2020/12/18/webAPIs1/images/1550736843659.png">
+<meta property="og:image" content="https://championwu.github.io/2020/12/18/webAPIs1/images/1550736881832.png">
+<meta property="og:image" content="https://championwu.github.io/2020/12/18/webAPIs1/images/1550736940082.png">
+<meta property="og:image" content="https://championwu.github.io/2020/12/18/webAPIs1/images/1550736956754.png">
+<meta property="og:image" content="https://championwu.github.io/2020/12/18/webAPIs1/images/1550737006593.png">
+<meta property="og:image" content="https://championwu.github.io/2020/12/18/webAPIs1/images/1550737019729.png">
+<meta property="og:image" content="https://championwu.github.io/2020/12/18/webAPIs1/images/1550737214510.png">
+<meta property="og:image" content="https://championwu.github.io/2020/12/18/webAPIs1/images/1550737269546.png">
+<meta property="og:image" content="https://championwu.github.io/2020/12/18/webAPIs1/images/1550737284218.png">
+<meta property="og:image" content="https://championwu.github.io/2020/12/18/webAPIs1/images/1550737354861.png">
+<meta property="article:published_time" content="2020-12-18T01:56:42.000Z">
+<meta property="article:modified_time" content="2020-12-18T01:57:27.942Z">
 <meta property="article:author" content="武乘鹏">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:image" content="https://championwu.github.io/images/1550719355829.png">
@@ -94,31 +94,41 @@
       </nav>
       <nav id="sub-nav">
         
-          <a id="nav-rss-link" class="nav-icon" href="/atom.xml" title="RSS Feed"></a>
+          <a id="nav-rss-link" class="nav-icon" href="/atom.xml" title="RSS"></a>
         
-        <a id="nav-search-btn" class="nav-icon" title="Suche"></a>
+        <a id="nav-search-btn" class="nav-icon" title="Buscar"></a>
       </nav>
       <div id="search-form-wrap">
-        <form action="//google.com/search" method="get" accept-charset="UTF-8" class="search-form"><input type="search" name="q" class="search-form-input" placeholder="Suche"><button type="submit" class="search-form-submit">&#xF002;</button><input type="hidden" name="sitesearch" value="https://championwu.github.io"></form>
+        <form action="//google.com/search" method="get" accept-charset="UTF-8" class="search-form"><input type="search" name="q" class="search-form-input" placeholder="Buscar"><button type="submit" class="search-form-submit">&#xF002;</button><input type="hidden" name="sitesearch" value="https://championwu.github.io"></form>
       </div>
     </div>
   </div>
 </header>
 
       <div class="outer">
-        <section id="main"><article id="post-day01_WebAPIs" class="h-entry article article-type-post" itemprop="blogPost" itemscope itemtype="https://schema.org/BlogPosting">
+        <section id="main"><article id="post-webAPIs1" class="h-entry article article-type-post" itemprop="blogPost" itemscope itemtype="https://schema.org/BlogPosting">
   <div class="article-meta">
-    <a href="/2020/12/18/day01_WebAPIs/" class="article-date">
-  <time class="dt-published" datetime="2020-12-18T00:58:47.405Z" itemprop="datePublished">2020-12-18</time>
+    <a href="/2020/12/18/webAPIs1/" class="article-date">
+  <time class="dt-published" datetime="2020-12-18T01:56:42.000Z" itemprop="datePublished">2020-12-18</time>
 </a>
     
   </div>
   <div class="article-inner">
     
     
+      <header class="article-header">
+        
+  
+    <h1 class="p-name article-title" itemprop="headline name">
+      webAPIs1
+    </h1>
+  
+
+      </header>
+    
     <div class="e-content article-entry" itemprop="articleBody">
       
-        <h1 id="day01-Web-APIs"><a href="#day01-Web-APIs" class="headerlink" title="day01 - Web APIs"></a>day01 - Web APIs</h1><blockquote>
+        <blockquote>
 <p>学习目标：</p>
 <p>能够通过ID来获取元素<br>能够通过标签名来获取元素<br>能够通过class来获取元素<br>能够通过选择器来获取元素<br>能够获取body和html元素<br>能够给元素注册事件<br>能够修改元素的内容<br>能够区分innerText和innerHTML的区别<br>能够修改像div这类普通元素的属性<br>能够修改表单元素的属性<br>能够修改元素的样式属性</p>
 </blockquote>
@@ -281,7 +291,7 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="https://championwu.github.io/2020/12/18/day01_WebAPIs/" data-id="ckitl0k4800011qfyc1g3ebs0" data-title="" class="article-share-link">Teilen</a>
+      <a data-url="https://championwu.github.io/2020/12/18/webAPIs1/" data-id="ckitmhuo30000q8fy2h879zja" data-title="webAPIs1" class="article-share-link">Compartir</a>
       
       
       
@@ -291,15 +301,11 @@
     
 <nav id="article-nav">
   
-    <a href="/2020/12/18/test/" id="article-nav-newer" class="article-nav-link-wrap">
-      <strong class="article-nav-caption">Neuer</strong>
-      <div class="article-nav-title">
-        
-          test
-        
-      </div>
-    </a>
   
+    <a href="/2020/12/18/webAPIs2/" id="article-nav-older" class="article-nav-link-wrap">
+      <strong class="article-nav-caption">Viejo</strong>
+      <div class="article-nav-title">webAPIs2</div>
+    </a>
   
 </nav>
 
@@ -321,7 +327,7 @@
   
     
   <div class="widget-wrap">
-    <h3 class="widget-title">Archiv</h3>
+    <h3 class="widget-title">Archivos</h3>
     <div class="widget">
       <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2020/12/">December 2020</a></li></ul>
     </div>
@@ -331,24 +337,16 @@
   
     
   <div class="widget-wrap">
-    <h3 class="widget-title">letzter Beitrag</h3>
+    <h3 class="widget-title">Posts recientes</h3>
     <div class="widget">
       <ul>
         
           <li>
-            <a href="/2020/12/18/day02_WebAPIs/">(no title)</a>
+            <a href="/2020/12/18/webAPIs1/">webAPIs1</a>
           </li>
         
           <li>
             <a href="/2020/12/18/webAPIs2/">webAPIs2</a>
-          </li>
-        
-          <li>
-            <a href="/2020/12/18/test/">test</a>
-          </li>
-        
-          <li>
-            <a href="/2020/12/18/day01_WebAPIs/">(no title)</a>
           </li>
         
       </ul>
@@ -365,7 +363,7 @@
     <div id="footer-info" class="inner">
       
       &copy; 2020 武乘鹏<br>
-      Powered by <a href="https://hexo.io/" target="_blank">Hexo</a>
+      Construido por <a href="https://hexo.io/" target="_blank">Hexo</a>
     </div>
   </div>
 </footer>
