@@ -25,7 +25,7 @@
   </script>
 <meta name="description" content="JavaScript高级第02天笔记1.构造函数和原型1.1对象的三种创建方式–复习 字面量方式 1var obj &#x3D; &amp;#123;&amp;#125;;  new关键字 1var obj &#x3D; new Object();  构造函数方式 12345function Person(name,age)&amp;#123;  this.name &#x3D; name;  this.age &#x3D; age;&amp;#125;var obj">
 <meta property="og:type" content="article">
-<meta property="og:title" content="面向对象2">
+<meta property="og:title" content="第八单元面向对象（2）">
 <meta property="og:url" content="https://championwu.github.io/2020/12/18/%E9%9D%A2%E5%90%91%E5%AF%B9%E8%B1%A12/index.html">
 <meta property="og:site_name" content="武乘鹏的博客">
 <meta property="og:description" content="JavaScript高级第02天笔记1.构造函数和原型1.1对象的三种创建方式–复习 字面量方式 1var obj &#x3D; &amp;#123;&amp;#125;;  new关键字 1var obj &#x3D; new Object();  构造函数方式 12345function Person(name,age)&amp;#123;  this.name &#x3D; name;  this.age &#x3D; age;&amp;#125;var obj">
@@ -43,7 +43,7 @@
 <meta property="og:image" content="https://championwu.github.io/2020/12/18/%E9%9D%A2%E5%90%91%E5%AF%B9%E8%B1%A12/images/img11.png">
 <meta property="og:image" content="https://championwu.github.io/2020/12/18/%E9%9D%A2%E5%90%91%E5%AF%B9%E8%B1%A12/images/img12.png">
 <meta property="article:published_time" content="2020-12-18T06:49:22.000Z">
-<meta property="article:modified_time" content="2020-12-18T06:50:51.656Z">
+<meta property="article:modified_time" content="2020-12-28T01:11:07.854Z">
 <meta property="article:author" content="武乘鹏">
 <meta property="article:tag" content="前端">
 <meta name="twitter:card" content="summary">
@@ -62,7 +62,7 @@
     lang   : 'zh-Hans'
   };
 </script>
-<title>面向对象2 | 武乘鹏的博客</title>
+<title>第八单元面向对象（2） | 武乘鹏的博客</title>
   
 
 
@@ -141,6 +141,7 @@
         <li class="menu-item menu-item-home"><a href="/home/" rel="section"><i class="fa fa-home fa-fw"></i>Home</a></li>
         <li class="menu-item menu-item-categories"><a href="/categories/" rel="section"><i class="fa fa-th fa-fw"></i>Categories</a></li>
         <li class="menu-item menu-item-archives"><a href="/archives/" rel="section"><i class="fa fa-archive fa-fw"></i>Archives</a></li>
+        <li class="menu-item menu-item-guestbook"><a href="/guestbook" rel="section">guestbook</a></li>
   </ul>
 </nav>
 
@@ -185,14 +186,14 @@
       <div class="site-state-item site-state-posts">
           <a href="/archives/">
         
-          <span class="site-state-item-count">11</span>
+          <span class="site-state-item-count">13</span>
           <span class="site-state-item-name">posts</span>
         </a>
       </div>
       <div class="site-state-item site-state-categories">
             <a href="/categories/">
           
-        <span class="site-state-item-count">5</span>
+        <span class="site-state-item-count">14</span>
         <span class="site-state-item-name">categories</span></a>
       </div>
   </nav>
@@ -244,7 +245,7 @@
     </span>
       <header class="post-header">
         <h1 class="post-title" itemprop="name headline">
-          面向对象2
+          第八单元面向对象（2）
         </h1>
 
         <div class="post-meta-container">
@@ -254,10 +255,16 @@
         <i class="far fa-calendar"></i>
       </span>
       <span class="post-meta-item-text">Posted on</span>
-      
 
-      <time title="Created: 2020-12-18 14:49:22 / Modified: 14:50:51" itemprop="dateCreated datePublished" datetime="2020-12-18T14:49:22+08:00">2020-12-18</time>
+      <time title="Created: 2020-12-18 14:49:22" itemprop="dateCreated datePublished" datetime="2020-12-18T14:49:22+08:00">2020-12-18</time>
     </span>
+      <span class="post-meta-item">
+        <span class="post-meta-item-icon">
+          <i class="far fa-calendar-check"></i>
+        </span>
+        <span class="post-meta-item-text">Edited on</span>
+        <time title="Modified: 2020-12-28 09:11:07" itemprop="dateModified" datetime="2020-12-28T09:11:07+08:00">2020-12-28</time>
+      </span>
     <span class="post-meta-item">
       <span class="post-meta-item-icon">
         <i class="far fa-folder"></i>
@@ -268,7 +275,7 @@
         </span>
           , 
         <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-          <a href="/categories/js%E9%AB%98%E7%BA%A7/%E9%9D%A2%E5%90%91%E5%AF%B9%E8%B1%A1/" itemprop="url" rel="index"><span itemprop="name">面向对象</span></a>
+          <a href="/categories/js%E9%AB%98%E7%BA%A7/%E7%AC%AC%E5%85%AB%E5%8D%95%E5%85%83%E9%9D%A2%E5%90%91%E5%AF%B9%E8%B1%A1%EF%BC%882%EF%BC%89/" itemprop="url" rel="index"><span itemprop="name">第八单元面向对象（2）</span></a>
         </span>
     </span>
 
@@ -431,13 +438,13 @@
 
           <div class="post-nav">
             <div class="post-nav-item">
-                <a href="/2020/12/18/%E9%9D%A2%E5%90%91%E5%AF%B9%E8%B1%A11/" rel="prev" title="面向对象1">
-                  <i class="fa fa-chevron-left"></i> 面向对象1
+                <a href="/2020/12/10/webAPIs1/" rel="prev" title="第一单元dom获取元素和事件基础">
+                  <i class="fa fa-chevron-left"></i> 第一单元dom获取元素和事件基础
                 </a>
             </div>
             <div class="post-nav-item">
-                <a href="/2020/12/18/%E9%9D%A2%E5%90%91%E5%AF%B9%E8%B1%A13/" rel="next" title="面向对象3">
-                  面向对象3 <i class="fa fa-chevron-right"></i>
+                <a href="/2020/12/18/es6/" rel="next" title="es6">
+                  es6 <i class="fa fa-chevron-right"></i>
                 </a>
             </div>
           </div>
